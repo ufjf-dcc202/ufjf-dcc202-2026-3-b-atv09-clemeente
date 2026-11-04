@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 01</title>
+<link rel="stylesheet" href="estilo.css">
+    <style>
+         header{
+            background-color: skyblue;
+         }
+         footer {
+            background-color: pink;
+         }
+         section {
+            background-color: whitesmoke;
+       }
+        section{
+        background-color: lightgreen;
+       }
+       section {
+        background-color: antiquewhite;
+       }
+       nav{
+        background-color: lightgreen;
+       }
+       .pancake-stack{
+        display:grid;
+        grid-template-rows: auto 1fr auto;
+       }
+       .holy-grail {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+        }
+        .holy-grail > header {
+            grid-column: 1/4;
+        }
+        .holy-grail > footer {
+            grid-column: 1/4;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <main>
+        <article class="holy-grail">
+            <header>
+            <h1>Exemplo 05: Holy Grail</h1>
+            </header>
+            <nav>
+                <li>Primeiro</li>
+                <li>Segundo</li>
+                <li>Terceiro</li>
+                <li>Quarto</li>
+                <li>Quinto</li>
+            </nav>
+            <section>
+                <h2>Texto</h2> 
+                <p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis consequuntur tempore praesentium perferendis sunt laborum cum, beatae dolorem nobis necessitatibus incidunt et quam nam, eum exercitationem placeat, cupiditate sit voluptas?</p>
+                    <p>Corrupti, quae libero? Quibusdam quasi aut quia expedita nobis ad officiis unde? Laboriosam eius, accusantium dignissimos sint pariatur facere sunt modi assumenda quisquam dolorum quia. Corrupti eum minima blanditiis odio.</p>
+                    <p>Ullam, alias. Sit ut tenetur laudantium illo quam cupiditate enim totam ex cumque eligendi, blanditiis iste. Harum, illum earum deleniti nemo laborum quod mollitia officiis necessitatibus labore perspiciatis, architecto facilis.</p>
+                </p>
+            </section>
+            <aside>
+
+            </aside>
+        </article>
+            <footer>
+                &COPY; 2026 - DCC202 - UFJF
+            </footer>
+    </main>
+</body>
+</html>
